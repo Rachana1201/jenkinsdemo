@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Hello123') {
             steps {
                 echo 'Hello, Jenkins!'
             }
@@ -16,7 +16,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo 'Build completed successfully'
+                echo 'Build completed successfully....!'
             }
         }
     }
