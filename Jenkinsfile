@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello123.......') {
+        stage('Hello.......') {
             steps {
-                echo 'Hello, Jenkins!'
+                echo 'Hello, Jenkins...............!'
             }
         }
 
@@ -23,7 +23,7 @@ pipeline {
 
     post {
         success {
-             echo 'Pipeline executed successfully'
+             echo 'Pipeline executed successfully....'
         }
         failure {
             echo 'Pipeline failed'
