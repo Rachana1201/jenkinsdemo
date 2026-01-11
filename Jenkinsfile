@@ -16,14 +16,14 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo 'Build completed successfully'
+                echo 'Build completed successfully....!'
             }
         }
     }
 
     post {
         success {
-             echo 'Pipeline executed successfully'
+             echo 'Pipeline executed successfully....!'
         }
         failure {
             echo 'Pipeline failed'
